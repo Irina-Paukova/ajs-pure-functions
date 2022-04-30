@@ -1,0 +1,37 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irina-Paukova/AJS-21-workspace.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Irina Bogomazova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irina-Paukova/AJS-21-workspace/issues"
+  },
+  "homepage": "https://github.com/Irina-Paukova/AJS-21-workspace#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "core-js": "^3.22.3"
+  }
+}
