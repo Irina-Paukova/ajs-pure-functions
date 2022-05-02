@@ -1,0 +1,26 @@
+{
+  "name": "platformslib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irina-Paukova/ajs-platforms-lib.git"
+  },
+  "keywords": [
+    "platformslib"
+  ],
+  "author": "Irina Bogomazova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irina-Paukova/ajs-platforms-lib/issues"
+  },
+  "homepage": "https://github.com/Irina-Paukova/ajs-platforms-lib#readme",
+  "dependencies": {
+    "@irina-paukova/platforms": "^1.0.0"
+  }
+}
